@@ -1,0 +1,181 @@
+:root {
+   --backgroundColorMain: #e5e5e5;
+   --backgroundColorSecondary: #2f303a;
+   --fontColorMain: #212121;
+   --fontColorSecondary: #757575;
+   --selectionColor: #2196f3;
+   --colorWhite: #ffffff;
+   --colorWhiteTransp: #ffffff99;
+   --colorAlmostWhite: #f5f4fa;
+}
+
+body {
+   background-color: var(--backgroundColorMain);
+   color: var(--fontColorMain);
+   font-family: "Roboto", "Raleway", sans-serif;
+}
+
+.logo {
+   font-family: "Raleway";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+   color: var(--selectionColor);
+   text-decoration: none;
+}
+
+.logo-recolor-top {
+   color: var(--fontColorMain);
+}
+
+.logo-recolor-bottom {
+   color: var(--colorWhite);
+}
+
+.links {
+   text-decoration: none;
+   color: var(--fontColorMain);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+}
+
+.links:hover {
+   color: var(--selectionColor);
+}
+
+.links:focus {
+   color: var(--selectionColor);
+}
+
+.links-curr-hl {
+   color: var(--selectionColor);
+}
+
+.links-contact {
+   color: var(--fontColorSecondary);
+}
+
+.links-contact:focus {
+   color: var(--selectionColor);
+}
+
+.links-contact-bottom {
+   font-style: normal;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+   color: var(--colorWhiteTransp);
+}
+
+.links-contact-bottom-underline {
+   text-decoration: underline;
+}
+
+.bottom-background {
+   background: var(--backgroundColorSecondary);
+}
+
+.addr {
+   font-style: normal;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+   color: var(--colorWhite);
+}
+
+.btn {
+   background: var(--colorAlmostWhite);
+   color: var(--fontColorMain);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   border-radius: 4px;
+}
+
+.btn:hover {
+   background: var(--selectionColor);
+   color: var(--colorWhite);
+   cursor: pointer;
+}
+
+.btn:focus {
+   background: var(--selectionColor);
+   color: var(--colorWhite);
+   cursor: pointer;
+}
+
+.btn-order {
+   color: var(--colorWhite);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   border-radius: 4px;
+   background-color: var(--selectionColor);
+   cursor: pointer;
+}
+
+
+.main-heading {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   letter-spacing: 0.06em;
+   text-align: center;
+   text-transform: uppercase;
+   color: var(--colorWhite);
+   background: var(--backgroundColorSecondary);
+}
+
+.secondary-heading {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.16;
+   text-align: center;
+   letter-spacing: 0.03em;
+}
+
+.paragraph-heading {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--fontColorMain);
+}
+
+.paragraph-text {
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+   color: var(--fontColorSecondary);
+}
+
+.person-name {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.187;
+   letter-spacing: 0.03em;
+}
+
+.person-position {
+   font-size: 16px;
+   line-height: 1.187;
+   letter-spacing: 0.03em;
+   color: var(--fontColorSecondary);
+}
+
+.image-caption-main {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+}
+
+.image-caption-secondary {
+   font-size: 16px;
+   line-height: 1.88;
+   color: var(--fontColorSecondary);
+}
